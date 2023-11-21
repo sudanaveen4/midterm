@@ -1,11 +1,10 @@
 pipeline {
     agent any
 
-    environment {
-        // Define environment variables if needed
-        MAVEN_HOME = '/path/to/maven' // Example Maven path
-        JAVA_HOME = '/path/to/java'   // Example Java path
-    }
+environment {
+        MAVEN_HOME = '"C:\\Users\\sudan\\OneDrive\\Desktop\\Y\\CSI3025 - Application Development and Deployment Architecture-LAB\\login-proj\\login"'
+        JAVA_HOME = '"C:\\Program Files\\Java\\jdk-17.0.2"'
+}
 
     stages {
         stage('Checkout') {
